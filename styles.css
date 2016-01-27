@@ -32,7 +32,7 @@ a:hover {
   text-align: center;
 }
 .nav {
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .nav .name {
-    color: white;
+    color: #ff9904;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -78,10 +78,14 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border: 3px solid #ff9904;
+}
+.header-little{
+  min-height: 200px;
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #ff9904;
+  color: #fff;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -89,10 +93,10 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #fff;
 }
 .card , .card-long{
-  margin: 30px auto;
+  margin: 0px auto;
   padding: 20px 40px 40px;
   text-align: left;
   background: #fff;
@@ -104,7 +108,7 @@ header .profile-image:hover {
   max-width: 500px;
 }
 .card:hover, .card-long:hover {
-  border-color: #ff99ff;
+  border-color: #ff9904;
 }
 
 ul.skills {
@@ -180,6 +184,14 @@ ul.devicons{
   font-size: 60px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.devicons a{
+  text-decoration: none;
+}
+.devicons a:visited {
+    text-decoration: none;
+    color: #222;
 }
 
 /* Styles for larger screens */
