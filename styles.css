@@ -32,7 +32,7 @@ a:hover {
   text-align: center;
 }
 .nav {
-  display: inline-flex;
+  display: inline-block;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
@@ -42,6 +42,7 @@ a:hover {
 
 .nav .name {
     color: #ff9904;
+    padding: 5px 10px 10px 10px;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
