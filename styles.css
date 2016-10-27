@@ -111,9 +111,6 @@ header .profile-image:hover {
 .card:hover, .card-long:hover {
   border-color: #ff9904;
 }
-.card-long{
-  margin: 0 50px;
-}
 
 ul.skills {
   padding: 0;
@@ -206,9 +203,7 @@ ul.devicons{
 /*======================
 ======WORK SECTION=====
 ========================*/
-.row{
-  margin:0 50px;
-}
+
 .work .section-title h1{
   color:#000;
 }
@@ -384,6 +379,15 @@ footer p{
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .row{
+    margin:0 10%;
+  }
+
+  .card-long{
+    margin: 0 4%;
+    padding: 20px 40px 40px;
   }
 
 }
